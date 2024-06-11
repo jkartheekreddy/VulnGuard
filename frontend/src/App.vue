@@ -1,41 +1,33 @@
 <template>
-  <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
   <div id="app">
-    <div id="logo">
-      <li>Logo</li>
-    </div>
-    <AppNavbar/>
+    <HomePage/>
   </div>
 </template>
 
 <script>
-import AppNavbar from './components/AppNavbar.vue'
+
+import HomePage from './components/AppNavbar';
 
 export default {
   name: 'App',
   components: {
-    AppNavbar
+    HomePage
   }
 };
 </script>
 
 <style>
-#app>#logo {
-  margin: 15px 0px 0px 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left;
-}
 
-#logo>li {
-  font-size: 20px;
-  list-style-type: none; 
+html {
+  overflow: hidden;
 }
 
 #app {
-  width: 1365px;
-  margin: -10px 0px 0px -7px;
-  background-color: grey;
+  margin: -10px 0px 0px -10px;
+  width: 101vw;
+  height: 101vh;
+  font-family: Arial, sans-serif;
+  background-color: #282828;
+  color: #c19e16;
 }
 </style>
