@@ -1,24 +1,14 @@
-// router/index.js
+import { createMemoryHistory, createRouter } from 'vue-router'
 
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import LoginPage from '../views/Login.vue';
-
-Vue.use(VueRouter);
+import LoginPage from '@/components/Login.vue'
 
 const routes = [
-  {
-    path: '/login',
-    name: 'LoginPage',
-    component: LoginPage
-  },
-  // Add other routes here
-];
+  { path: '/login', component: LoginPage }
+]
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
-});
+const router = createRouter({
+  history: createMemoryHistory(),
+  routes,
+})
 
 export default router;
