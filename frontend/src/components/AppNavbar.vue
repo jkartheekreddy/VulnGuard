@@ -10,7 +10,7 @@
         <router-link to="">Scan</router-link>
         <router-link to="">Dashboard</router-link>
         <router-link to="">Register</router-link> -->
-        <router-link to="/login"><button>Login</button></router-link>
+        <router-link to="Login"><button>Login</button></router-link>
       </div>
     </nav>
   </div>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'HomePage'
+  name: 'AppNavBar'
 }
 </script>
 
