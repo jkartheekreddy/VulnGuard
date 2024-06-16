@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="App">
     <AppNavbar/>
     <router-view />
   </div>
@@ -21,12 +21,12 @@ html {
   overflow: hidden;
 }
 
-#app {
+#App {
   display: flex;  
   flex-direction: column;
   margin: -10px 0px 0px -10px;
   width: 101vw;
-  height: 101vh;
+  height: 102vh;
   font-family: Arial, sans-serif;
   background-color: #282828;
   color: #c19e16;

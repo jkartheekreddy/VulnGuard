@@ -27,7 +27,6 @@ export default {
   margin: 0.5rem;
   padding: 5px 5px;
   font-size: 16px;
-
   text-align: center;
   color: #007bff;
   background-color: transparent;
@@ -35,6 +34,10 @@ export default {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+nav {
+  border-radius: 27px;
 }
 
 #homeButton:hover {
@@ -52,6 +55,7 @@ export default {
 
 .home {
   padding: 20px;
+  background-color: #f2e5bc; 
 }
 
 .navbar {

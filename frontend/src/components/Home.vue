@@ -1,5 +1,6 @@
 <template>
-    <div id="app">
+  <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <div id="page">
         <div class="page-content">
             <h1>Welcome to VulnGuard</h1>
             <p>VulnGuard is a powerful web vulnerability scanner designed to help you identify and mitigate security risks in your web applications.</p>
@@ -16,15 +17,15 @@ export default {
 
 <style>
 
-#app {
+#page {
   display: flex;  
   flex-direction: column;
   margin: -10px 0px 0px -10px;
-  width: 101vw;
-  height: 101vh;
+  width: 102vw;
+  height: 103vh;
   font-family: Arial, sans-serif;
-  background-color: #282828;
-  color: #c19e16;
+  background-color: #f2e5bc;
+  max-width: 100%;
 }
 
 .page-content {
@@ -33,11 +34,13 @@ export default {
 }
 
 .page-content h1 {
-  color: #fbf1c7;
+  color: black;
+  font-family: 'JetBrains Mono'; 
 }
 
 .page-content p {
-  color: #ebdbb2;
+  font-family: 'JetBrains Mono';
+  color: black;
   font-size: 18px;
 }
 
