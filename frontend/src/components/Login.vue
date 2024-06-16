@@ -1,4 +1,5 @@
 <template>
+  <div class="login">
     <div class="login-container">
       <h2>Login</h2>
       <form @submit.prevent="login">
@@ -12,7 +13,11 @@
         </div>
         <button type="submit">Login</button>
       </form>
+      <span class="register">
+        Do not have an account? <router-link style="color: #458588;" to="/register">Register</router-link>
+      </span>
     </div>
+  </div>
   </template>
   
   <script>
@@ -37,13 +42,20 @@
   </script>
   
   <style scoped>
+.login{
+  height: 100vh;
+  background-color:#1f2229;
+}
+
   .login-container {
+    align-content: center;
+    justify-content: center;
     max-width: 400px;
     margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #3c3836;
+    
     color: #fbf1c7;
   }
   
@@ -55,7 +67,9 @@
     display: block;
     margin-bottom: 5px;
   }
-  
+  .register{
+    padding: 1rem;
+  }
   input[type="text"],
   input[type="password"] {
     width: 100%;
@@ -76,6 +90,7 @@
     background-color: #458588;
     color: #fbf1c7;
     cursor: pointer;
+    margin-bottom: 1rem;
   }
   
   button:hover {

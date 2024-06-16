@@ -6,7 +6,7 @@
         <router-link to=""><button id="homeButton">Targets</button></router-link>
         <router-link to=""><button id="homeButton">Scan</button></router-link>
         <router-link to=""><button id="homeButton">Dashboard</button></router-link>
-        <router-link to=""><button id="homeButton">Register</button></router-link>
+        <router-link to="/register"><button id="homeButton">Register</button></router-link>
         <router-link to="/login"><button id="homeButton">Login</button></router-link>
       </div>
     </nav>
@@ -55,7 +55,7 @@ nav {
 
 .home {
   padding: 20px;
-  background-color: #f2e5bc; 
+  background-color: #1f2229; 
 }
 
 .navbar {

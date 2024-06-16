@@ -25,22 +25,23 @@ export default {
   height: 103vh;
   font-family: Arial, sans-serif;
   background-color: #f2e5bc;
+  background-image: url("../img.jpg");
+  background-size: cover;
   max-width: 100%;
 }
 
 .page-content {
   margin-top: 20px;
   text-align: center;
+  color: #f2e5bc;
 }
 
 .page-content h1 {
-  color: black;
   font-family: 'JetBrains Mono'; 
 }
 
 .page-content p {
   font-family: 'JetBrains Mono';
-  color: black;
   font-size: 18px;
 }
 
